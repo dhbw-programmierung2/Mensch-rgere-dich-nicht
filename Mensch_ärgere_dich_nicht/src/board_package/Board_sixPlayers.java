@@ -43,9 +43,11 @@ public class Board_sixPlayers {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 1000, 1000);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setTitle("Mensch Ärgere Dich Nicht");
+
 		
 		JLabel lblNewLabel = new JLabel("");
-		Image img = new ImageIcon(this.getClass().getResource("/Spielfeld_f�r_sechs.png")).getImage();
+		Image img = new ImageIcon(this.getClass().getResource("/Spielfeld_für_sechs.png")).getImage();
 		lblNewLabel.setIcon(new ImageIcon(img));
 	//	lblNewLabel.setBounds(r);
 		frame.getContentPane().add(lblNewLabel, BorderLayout.CENTER);
