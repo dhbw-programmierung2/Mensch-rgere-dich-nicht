@@ -32,12 +32,12 @@ public class Game_Launcher extends JFrame implements ActionListener {
 	//private JLabel lblChoosePlayer = new JLabel("Anzahl der Spieler");
 	//private JLabel lblChooseColour = new JLabel("Farbenauswahl");
 	
-	private JLabel lblSpieler1 = new JLabel("Spieler1");
-	private JLabel lblSpieler2 = new JLabel("Spieler2");
-	private JLabel lblSpieler3 = new JLabel("Spieler3");
-	private JLabel lblSpieler4 = new JLabel("Spieler4");
-	private JLabel lblSpieler5 = new JLabel("Spieler5");
-	private JLabel lblSpieler6 = new JLabel("Spieler6");
+	private JCheckBox lblSpieler1 = new JCheckBox("Spieler1");
+	private JCheckBox lblSpieler2 = new JCheckBox("Spieler2");
+	private JCheckBox lblSpieler3 = new JCheckBox("Spieler3");
+	private JCheckBox lblSpieler4 = new JCheckBox("Spieler4");
+	private JCheckBox lblSpieler5 = new JCheckBox("Spieler5");
+	private JCheckBox lblSpieler6 = new JCheckBox("Spieler6");
 
 	
 	private JButton btEinSpieler = new JButton("Go - 1 Spieler");
