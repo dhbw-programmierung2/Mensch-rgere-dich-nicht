@@ -76,9 +76,9 @@ public class Game_Launcher extends JFrame implements ActionListener {
 	 */
 	public Game_Launcher() {
 		
-		String[] colorsAvailable = {"Grün","Rot","Blau","Gelb","Violett","Schwarz"};
+		String[] colorsAvailable = {"Wähle eine Farbe","Grün","Rot","Blau","Gelb","Violett","Schwarz"};
 		
-		String[] typAuswahl = { "Mensch", "Computer"};
+		String[] typAuswahl = { "Wähle Gegner","Mensch", "Computer"};
 
 		JComboBox colorListSpieler1 = new JComboBox(colorsAvailable);
 		JComboBox colorListSpieler2 = new JComboBox(colorsAvailable);
