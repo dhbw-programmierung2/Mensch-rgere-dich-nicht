@@ -5,6 +5,7 @@ import java.awt.*;
 import javax.swing.*;
 
 import java.awt.event.*;
+import board_package.*;
 
 /**
  * Diese Klasse repräsentiert den Game Launcher.
@@ -121,6 +122,9 @@ public class Game_Launcher extends JFrame implements ActionListener {
 		
 		if (obj == btEinSpieler) {
 			
+			Board_fourPlayers window = new Board_fourPlayers();
+			
+			
 			/*
 			 * Operation Ein Spieler
 			 */
@@ -128,6 +132,8 @@ public class Game_Launcher extends JFrame implements ActionListener {
 		}
 				
 		if (obj == btZweiSpieler) {
+			
+			Board_fourPlayers window = new Board_fourPlayers();
 			
 			/*
 			 * Operation Zwei Spieler
@@ -137,7 +143,7 @@ public class Game_Launcher extends JFrame implements ActionListener {
 		
 
 		if (obj == btDreiSpieler) {
-					
+			Board_fourPlayers window = new Board_fourPlayers();
 			/*
 			 * Operation Drei Spieler	
 			 */
@@ -146,7 +152,7 @@ public class Game_Launcher extends JFrame implements ActionListener {
 				
 		
 		if (obj == btVierSpieler) {
-			
+			Board_fourPlayers window = new Board_fourPlayers();
 			/*
 			 * Operation Vier Spieler
 			 */
