@@ -76,7 +76,7 @@ public class Game_Launcher extends JFrame implements ActionListener {
 	 */
 	public Game_Launcher() {
 		
-		String[] colorsAvailable = {"Green","Red","Blue","Yellow","Purple","Grey","Cyan","Pink","White","Black"};
+		String[] colorsAvailable = {"Grün","Rot","Blau","Gelb","Violett","Schwarz"};
 		
 		String[] typAuswahl = { "Mensch", "Computer"};
 
