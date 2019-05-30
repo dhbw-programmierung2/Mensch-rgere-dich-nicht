@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Beispiel_GUI1Controller">
+   <children>
+      <SplitPane dividerPositions="0.6705685618729097" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+         <items>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="398.0" prefWidth="489.0">
+               <children>
+                  <ImageView fitHeight="398.0" fitWidth="442.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0">
+                     <image>
+                        <Image url="@../../../../OneDrive/Dokumente/DHBW/Programmierung/Spielfeld%20für%20vier.png" />
+                     </image>
+                  </ImageView>
+                  <Circle fx:id="house1Black" layoutX="34.0" layoutY="332.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="house2Black" layoutX="66.0" layoutY="333.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle layoutX="166.0" layoutY="365.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="house3Black" layoutX="32.0" layoutY="365.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="house4Black" layoutX="66.0" layoutY="365.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#f9fafc" layoutX="100.0" layoutY="232.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="87.0" AnchorPane.topAnchor="219.5" />
+                  <Circle fill="#f9fafc" layoutX="133.0" layoutY="232.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="120.0" />
+                  <Circle fill="#f9fafc" layoutX="166.0" layoutY="232.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#f9fafc" layoutX="166.0" layoutY="265.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.topAnchor="252.5" />
+                  <Circle fill="#f9fafc" layoutX="166.0" layoutY="298.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.topAnchor="286.0" />
+                  <Circle fill="#f9fafc" layoutX="166.0" layoutY="331.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.topAnchor="319.0" />
+                  <Circle fill="#f9fafc" layoutX="199.0" layoutY="32.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.topAnchor="20.5" />
+                  <Circle fill="#f9fafc" layoutX="166.0" layoutY="32.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.topAnchor="20.5" />
+                  <Circle fill="#f9fafc" layoutX="166.0" layoutY="66.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.topAnchor="53.5" />
+                  <Circle fill="#f9fafc" layoutX="166.0" layoutY="99.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.topAnchor="87.0" />
+                  <Circle fill="#f9fafc" layoutX="166.0" layoutY="132.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.topAnchor="120.0" />
+                  <Circle fill="#f9fafc" layoutX="166.0" layoutY="165.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.topAnchor="153.0" />
+                  <Circle fill="#f9fafc" layoutX="133.0" layoutY="165.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="120.0" AnchorPane.topAnchor="153.0" />
+                  <Circle fill="#f9fafc" layoutX="100.0" layoutY="165.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="87.0" AnchorPane.topAnchor="153.0" />
+                  <Circle fill="#f9fafc" layoutX="66.0" layoutY="165.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="54.0" AnchorPane.topAnchor="153.0" />
+                  <Circle fill="#faff00" layoutX="33.0" layoutY="165.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.topAnchor="153.0" />
+                  <Circle fill="#f9fafc" layoutX="33.0" layoutY="199.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#f9fafc" layoutX="33.0" layoutY="232.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#f9fafc" layoutX="66.0" layoutY="232.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="54.0" />
+                  <Circle fill="#f9fafc" layoutX="332.0" layoutY="165.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="319.0" AnchorPane.topAnchor="153.0" />
+                  <Circle fill="#f9fafc" layoutX="298.0" layoutY="165.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="286.0" AnchorPane.topAnchor="153.0" />
+                  <Circle fill="#f9fafc" layoutX="265.0" layoutY="165.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="253.0" AnchorPane.topAnchor="153.0" />
+                  <Circle fill="#0db028" layoutX="232.0" layoutY="32.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.topAnchor="20.5" />
+                  <Circle fill="#f9fafc" layoutX="232.0" layoutY="66.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.topAnchor="53.5" />
+                  <Circle fill="#f9fafc" layoutX="232.0" layoutY="99.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="219.5" AnchorPane.topAnchor="87.0" />
+                  <Circle fill="#f9fafc" layoutX="232.0" layoutY="132.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="219.5" AnchorPane.topAnchor="120.0" />
+                  <Circle fill="#f9fafc" layoutX="232.0" layoutY="165.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.topAnchor="153.0" />
+                  <Circle fill="#f9fafc" layoutX="232.0" layoutY="232.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="219.5" />
+                  <Circle fill="#f9fafc" layoutX="232.0" layoutY="265.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="219.5" AnchorPane.topAnchor="252.5" />
+                  <Circle fill="#f9fafc" layoutX="232.0" layoutY="298.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="219.5" AnchorPane.topAnchor="286.0" />
+                  <Circle fill="#f9fafc" layoutX="232.0" layoutY="331.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="219.5" AnchorPane.topAnchor="319.0" />
+                  <Circle fill="#f9fafc" layoutX="232.0" layoutY="365.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="219.5" />
+                  <Circle fill="#f9fafc" layoutX="199.0" layoutY="365.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="186.5" />
+                  <Circle fill="#f9fafc" layoutX="365.0" layoutY="199.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#ff0004" layoutX="365.0" layoutY="232.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#f9fafc" layoutX="331.0" layoutY="232.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="319.0" />
+                  <Circle fill="#f9fafc" layoutX="298.0" layoutY="232.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="286.0" />
+                  <Circle fill="#f9fafc" layoutX="265.0" layoutY="232.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="253.0" />
+                  <Circle fill="#f9fafc" layoutX="365.0" layoutY="165.0" radius="12.5" stroke="BLACK" strokeType="INSIDE" AnchorPane.topAnchor="153.0" />
+                  <Circle fx:id="aim2Yellow" fill="#faff00" layoutX="133.0" layoutY="199.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="aim3Yellow" fill="#faff00" layoutX="100.0" layoutY="199.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="aim4Yellow" fill="#faff00" layoutX="66.0" layoutY="199.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="house1Red" fill="#ff0004" layoutX="331.0" layoutY="331.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="house2Red" fill="#ff0004" layoutX="365.0" layoutY="331.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="house4Red" fill="#ff0004" layoutX="365.0" layoutY="365.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="house3Red" fill="#ff0004" layoutX="331.0" layoutY="365.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="aim1Green" fill="#0db028" layoutX="199.0" layoutY="165.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="aim4Red" fill="#ff0004" layoutX="331.0" layoutY="197.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="319.5" AnchorPane.topAnchor="186.0" />
+                  <Circle fx:id="aim3Red" fill="#ff0004" layoutX="298.0" layoutY="199.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="aim2Red" fill="#ff0004" layoutX="265.0" layoutY="199.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="aim1Red" fill="#ff0004" layoutX="232.0" layoutY="199.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.topAnchor="186.0" />
+                  <Circle fx:id="aim1Yellow" fill="#faff00" layoutX="166.0" layoutY="199.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="aim1Black" layoutX="199.0" layoutY="232.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="aim2Black" layoutX="199.0" layoutY="265.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="aim3Black" layoutX="199.0" layoutY="298.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="aim4Black" layoutX="199.0" layoutY="331.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="house4Green" fill="#0db028" layoutX="365.0" layoutY="66.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="house3Green" fill="#0db028" layoutX="331.0" layoutY="66.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="aim4Green" fill="#0db028" layoutX="199.0" layoutY="66.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="aim3Green" fill="#0db028" layoutX="199.0" layoutY="99.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="aim2Green" fill="#0db028" layoutX="199.0" layoutY="132.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="house2Yellow" fill="#faff00" layoutX="66.0" layoutY="32.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.topAnchor="21.0" />
+                  <Circle fx:id="house3Yellow" fill="#faff00" layoutX="34.0" layoutY="66.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="house4Yellow" fill="#faff00" layoutX="66.0" layoutY="66.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="house1Green" fill="#0db028" layoutX="332.0" layoutY="32.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.topAnchor="21.0" />
+                  <Circle fx:id="house2Green" fill="#0db028" layoutX="365.0" layoutY="32.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.topAnchor="21.0" />
+                  <Circle fx:id="house1Yellow" fill="#fbff00" layoutX="32.0" layoutY="32.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.leftAnchor="21.0" AnchorPane.rightAnchor="354.0" AnchorPane.topAnchor="21.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="398.0" prefWidth="164.0">
+               <children>
+                  <Button fx:id="wuerfeln" layoutX="45.0" layoutY="20.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="105.0" text="Würfeln">
+                     <opaqueInsets>
+                        <Insets left="50.0" />
+                     </opaqueInsets>
+                  </Button>
+                  <Button fx:id="ziehen" layoutX="45.0" layoutY="90.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="105.0" text="Ziehen" />
+                  <Button fx:id="naechsterSpieler" layoutX="45.0" layoutY="128.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="105.0" text="Nächster Spieler" />
+                  <ListView layoutX="30.0" layoutY="173.0" prefHeight="126.0" prefWidth="135.0" />
+               </children>
+            </AnchorPane>
+         </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
