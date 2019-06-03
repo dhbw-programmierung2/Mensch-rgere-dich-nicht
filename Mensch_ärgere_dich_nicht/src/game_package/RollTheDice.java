@@ -2,6 +2,9 @@ package game_package;
 
 import java.util.Random;
 
+/**
+* @author jonas
+*/
 public class RollTheDice {
 	
 	public static void main(String[] args) {
