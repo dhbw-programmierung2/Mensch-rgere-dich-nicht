@@ -16,7 +16,7 @@ public class Main extends Application {
         BoardGUIController gameController = fxmlLoader.getController();
         gameController.initSelectUI();
 
-        primaryStage.setTitle("Mensch ärgere Dich nicht");
+        primaryStage.setTitle("Mensch ï¿½rgere Dich nicht");
         primaryStage.setScene(new Scene(root, 600, 450));
         primaryStage.show();
     }
