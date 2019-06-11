@@ -12,7 +12,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("BoardGUI.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("MADN_Launcher.fxml"));
         Parent root = fxmlLoader.load();
         MADN_LaucherController gameController = fxmlLoader.getController();
         gameController.initSelectUI();
