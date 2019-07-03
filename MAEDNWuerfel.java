@@ -3,7 +3,7 @@ package maednpackage;
 import java.util.Random;
 
 /**
- * Diese Klasse beschreibt die Würfelaktionen von Mensch ärgere dich nicht
+ * Diese Klasse beschreibt die WÃ¼rfelaktionen von Mensch Ã¤rgere dich nicht
  * 
  * @author JSCHMID
  *
@@ -11,10 +11,10 @@ import java.util.Random;
 
 public class MAEDNWuerfel {
 	
-	//Speichern der gewürfelten Zahl
+	//Speichern der gewÃ¼rfelten Zahl
 	private int wurf = 0; 
 	
-	//Anzahl der Würfe in gesamten Spiel
+	//Anzahl der WÃ¼rfe in gesamten Spiel
 	private int zaehler = 0; 
 	
 	//Anzahl der Versuche
@@ -22,16 +22,16 @@ public class MAEDNWuerfel {
 	
 	
 	/**
-	 * Erzeugen einer zufälligen Zahl
+	 * Erzeugen einer zufÃ¤lligen Zahl
 	 * 
-	 * @return eine zufällige Zahl von 1 bis 6
+	 * @return eine zufÃ¤llige Zahl von 1 bis 6
 	 */
 	private int zufallsZahl()
 	{
 		// Erzeugen eines Random Objekts
 		Random rnd = new Random();
 		
-		//Value bekommt eine zufällige Zahl zwischen 1 und  zugewiesen
+		//Value bekommt eine zufÃ¤llige Zahl zwischen 1 und  zugewiesen
 		int value = rnd.nextInt(5) + 1;
 		
 		return value;
@@ -39,13 +39,13 @@ public class MAEDNWuerfel {
 		
 	
 	/**
-	* Simuliert einen Würfelwurf
+	* Simuliert einen WÃ¼rfelwurf
 	*/
 	public void wurf()
 	{
 		if (wurf == 0) { 
 		
-		// Der variablen Wurf die gewürfelte Augenzahl zurückgeben
+		// Der variablen Wurf die gewÃ¼rfelte Augenzahl zurÃ¼ckgeben
 		wurf = zufallsZahl(); 
 		
 		zaehler++;
@@ -55,7 +55,7 @@ public class MAEDNWuerfel {
 	}
 	
 	/**
-	* Den Würfel auf 0 setzen
+	* Den WÃ¼rfel auf 0 setzen
 	*/
 	public void wurfZuruecksetzen()
 	{
@@ -63,19 +63,19 @@ public class MAEDNWuerfel {
 	}
 	
 	/**
-	* Gibt den Würfelwert zurück
+	* Gibt den WÃ¼rfelwert zurÃ¼ck
 	* 
-	* @return Gibt den Würfelwert zurück
+	* @return Gibt den WÃ¼rfelwert zurÃ¼ck
 	*/
 	public int getWurf()
 	{
-		return wurf; // Würfelzahl zurück geben
+		return wurf; 
 	}
 	
 	/**
-	* Gibt den Würfelzähler zurück
+	* Gibt den WÃ¼rfelzÃ¤hler zurÃ¼ck
 	* 
-	* @return Gibt den Würfelzähler zurück
+	* @return Gibt den WÃ¼rfelzÃ¤hler zurÃ¼ck
 	*/
 	public int getWurfzaheler()
 	{
@@ -91,7 +91,7 @@ public class MAEDNWuerfel {
 	}
 	
 	/**
-	* Anzahl der Versuche zurückgeben
+	* Anzahl der Versuche zurÃ¼ckgeben
 	* 
 	* @return Anzahl der Versuche
 	*/
